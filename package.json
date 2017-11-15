@@ -1,0 +1,19 @@
+{
+  "name": "liar-theme-default",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oowangoo/liar-theme-default.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oowangoo/liar-theme-default/issues"
+  },
+  "homepage": "https://github.com/oowangoo/liar-theme-default#readme"
+}

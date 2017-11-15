@@ -1,0 +1,9 @@
+// same with checkboxGroup
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  >* {
+    margin-right: 10px;
+  }
+}
