@@ -37,9 +37,6 @@
   &:global(.up) {
     transform: rotate(180deg);
   }
-  &:before {
-    content: $icon-caretdown; // icon-caretdown;
-  }
 }
 
 .dropdown{
