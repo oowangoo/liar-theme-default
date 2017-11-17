@@ -15,11 +15,13 @@
   vertical-align: baseline;
   position: relative;
   font-size: $input-font-size;
+  width: 300px;
   :global(.icon-loading) {
     animation: rotating linear 1s infinite;
   }
 }
 .input{
+  box-sizing: border-box;
   width: 100%;
   border: $input-border-width solid $input-border-color;
   font-size: 1em;
@@ -112,14 +114,4 @@
   font-size: $input-lg-font-size;
   @include input-size($input-lg-size, 0,
     $input-lg-padding-horizontal, $input-radius);
-}
-
-// for example
-.wrapper{
-  width: 300px;
-}
-.input{
-  box-sizing: border-box;
-  // background-color: black;
-  // background-clip: content-box;
 }

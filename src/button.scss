@@ -128,15 +128,3 @@
   font-size: $btn-lg-font-size;
   @include button-size($btn-lg-size, $btn-lg-padding-horizontal, $btn-border-radius);
 }
-
-
-
-// for example
-.btn+.btn {
-  margin-left: 10px;
-}
-
-@import './icon/font.scss';
-:global {
-  @import './icon/style.scss';
-}
